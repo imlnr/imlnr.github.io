@@ -145,8 +145,10 @@ nav {
 /*Stying for small screens*/
 @media screen and (max-width: 800px) {
     nav {
-        position: fixed;
+        /* position: fixed;  */
+        position: relative;
         z-index: 3;
+        width: 100vw;
     }
 
     .hamburger {
@@ -238,15 +240,15 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid;
+    /* border: 1px solid; */
     padding: 3%;
 }
 .about-card-details{
     width: 70%;
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 
 .details-img>img{
     border-radius: 50%;
-    width: 300px;
+    width: 100px;
 }
