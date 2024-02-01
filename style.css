@@ -39,13 +39,14 @@
     display: flex;
     align-items: center;
     border: 1px solid green;
-    width: 45%;
+    flex-basis: 45%;
     gap: 3%;
     justify-content: space-between;
 }
 
 .prof-img>img{
     width: 250px;
+    border-radius: 50%;
 }
 .prof-inn-details-e-p-l{
     border: 1px solid;
@@ -53,6 +54,8 @@
     display: flex;
     flex-direction: column;
     gap: 15px;
+    /* width: 60%; */
+    flex-basis: 55%;
     justify-content: center;
 }
 .prof-inn-details-e-p-l>p>span{
@@ -64,7 +67,8 @@
 }
 
 .about-me-text {
-    width: 50%;
+    /* width: 50%; */
+    flex-basis: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -97,4 +101,33 @@
 .link-social>img{
     width: 38px;
     border-radius: 50%;
+}
+.skills-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 2%; */
+}
+.skills-inn{
+    display: flex;
+    width: 70%;
+    /* align-items: center; */
+    justify-content: start;
+    gap: 2%;
+    padding: 2%;
+}
+.skill-card{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 1%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    /* border: 1px solid; */
+}
+.skill-card>img{
+    width: 70px;
 }
