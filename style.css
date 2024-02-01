@@ -230,3 +230,23 @@ nav {
 .toggle .line3 {
     transform: rotate(45deg) translate(-5px, -6px);
 }
+
+/* body */
+
+.nav-hero-body{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    padding: 3%;
+}
+.about-card-details{
+    width: 70%;
+    border: 1px solid;
+}
+
+.details-img>img{
+    border-radius: 50%;
+    width: 300px;
+}
