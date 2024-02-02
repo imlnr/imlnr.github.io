@@ -186,7 +186,7 @@
 .project-card {
     display: flex;
     justify-content: space-between;
-    /* height: 380px; */
+    height: 450px;
     border: 6px solid rgba(128, 128, 128, 0.21);
     border-radius: 12px;
     transition: height 0.3 ease;
