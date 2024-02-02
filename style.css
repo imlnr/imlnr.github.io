@@ -186,7 +186,7 @@
 .project-card {
     display: flex;
     justify-content: space-between;
-    height: 450px;
+    height: 435px;
     border: 6px solid rgba(128, 128, 128, 0.21);
     border-radius: 12px;
     transition: height 0.3 ease;
@@ -212,6 +212,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    /* width: 50%; */
     padding: 1%;
     border: 1px solid;
     /* transition: display 0.3s ease; */
