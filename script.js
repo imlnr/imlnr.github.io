@@ -9,23 +9,23 @@ const blolive = document.getElementById("project3-git");
 
 
 
-edugit.addEventListener("click",()=>{
+edugit.addEventListener("click", () => {
     window.location.href = "https://github.com/imlnr/software-kalaakar-5678"
 });
-edulive.addEventListener("click",()=>{
+edulive.addEventListener("click", () => {
     window.location.href = "https://cw-p5.netlify.app/"
 })
 
-bangit.addEventListener("click",()=>{
+bangit.addEventListener("click", () => {
     window.location.href = "https://github.com/bsaha12/pixel-pioneer-7654"
 })
-banlive.addEventListener("click",()=>{
+banlive.addEventListener("click", () => {
     window.location.href = "https://pixel-pioneer-7654.netlify.app/"
 })
 
-blogit.addEventListener("click",()=>{
+blogit.addEventListener("click", () => {
     window.location.href = "https://github.com/anshukumari181405/overwought-skin"
 })
-blolive.addEventListener("click",()=>{
+blolive.addEventListener("click", () => {
     window.location.href = "https://software-kalaakar-5678.netlify.app/"
 })
