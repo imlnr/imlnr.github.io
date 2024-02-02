@@ -186,37 +186,37 @@
 .project-card {
     display: flex;
     justify-content: space-between;
-    height: 380px;
-    border: 4px solid grey;
+    /* height: 380px; */
+    border: 6px solid rgba(128, 128, 128, 0.21);
     border-radius: 12px;
+    transition: height 0.3 ease;
 }
 
 .project-img {
     width: 50%;
+    transition: width 0.4s ease;
 }
-
-.project-img:hover .proj-description {
-    visibility: hidden;
+.project-img:hover + .proj-description {
+    display: none; 
 }
-body{
-    background-color: grey;
-}
-.project-img>img {
+.project-img > img {
     width: 100%;
     height: 100%;
     border-radius: 8px;
+    transition: width 0.3s ease;
 }
-
+.project-img:hover{
+    width: 100%;
+}
 .proj-description {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     gap: 10px;
     padding: 1%;
     border: 1px solid;
-    visibility: visible;
-    transition: visibility 0.3s ease;
+    /* transition: display 0.3s ease; */
 }
+
 
 .proj-description>ul {
     margin-left: 5%;
@@ -251,4 +251,5 @@ body{
     align-items: center;
     justify-content: center;
     border-radius: 10px;
+    cursor: pointer;
 }
