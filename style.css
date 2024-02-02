@@ -166,18 +166,36 @@
 .project-card{
     display: flex;
     justify-content: space-between;
-    height: 400px;
+    height: 380px;
     border: 1px solid;
     /* border-radius: 8px; */
 }
 .project-img{
     width: 50%;
 }
+.project-img>img{
+    width: 100%;
+    height: 100%;
+}
 .proj-description{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 10px;
     border: 1px solid;
+}
+.proj-description>ul{
+    margin-left: 5%;
+}
+
+.tech-stacks{
+    display: flex;
+    gap: 2%;
+}
+.tech-stacks>div{
+    background-color: aqua;
+    padding: 1%;
+    border-radius: 15px;
 }
 .live-code{
     display: flex;
@@ -194,6 +212,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
+    border-radius: 10px;
 }
 
