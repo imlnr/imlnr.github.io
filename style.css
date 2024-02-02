@@ -28,11 +28,14 @@
 
 .about-card-inn {
     width: 70%;
-    display: flex;
-    align-items: center;
+    /* display: flex; */
+    /* align-items: center; */
     border: 1px solid;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     padding: 3%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2%;
 }
 
 .prof-details {
@@ -40,12 +43,21 @@
     align-items: center;
     border: 1px solid green;
     flex-basis: 45%;
-    gap: 3%;
+    gap: 2%;
     justify-content: space-between;
+}
+.prof-img{
+    border: 1px solid;
+    flex-basis: 50%;
+    /* align-self: flex-start; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .prof-img>img{
     width: 250px;
+    /* width: fit-content; */
     border-radius: 50%;
 }
 .prof-inn-details-e-p-l{
@@ -73,7 +85,7 @@
     flex-direction: column;
     justify-content: center;
     border: 1px solid red;
-    height: 250px;
+    /* height: 250px; */
     gap: 20px;
 }
 .about-me-text>p{
