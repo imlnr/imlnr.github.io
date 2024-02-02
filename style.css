@@ -27,7 +27,7 @@
 }
 
 .about-card-inn {
-    width: 70%;
+    width: 75%;
     /* display: flex; */
     /* align-items: center; */
     border: 1px solid;
@@ -139,7 +139,7 @@
 
 .skills-inn {
     display: grid;
-    width: 70%;
+    width: 75%;
     /* align-items: center; */
     /* justify-content: start; */
     grid-template-columns: repeat(9, 1fr);
@@ -179,7 +179,7 @@
     align-items: center;
     flex-direction: column;
     gap: 20px;
-    width: 70%;
+    width: 75%;
     padding: 1%;
 }
 
@@ -198,7 +198,9 @@
 .project-img:hover .proj-description {
     visibility: hidden;
 }
-
+body{
+    background-color: grey;
+}
 .project-img>img {
     width: 100%;
     height: 100%;
@@ -210,6 +212,7 @@
     flex-direction: column;
     /* justify-content: space-between; */
     gap: 10px;
+    padding: 1%;
     border: 1px solid;
     visibility: visible;
     transition: visibility 0.3s ease;
