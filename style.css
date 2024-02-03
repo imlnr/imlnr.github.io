@@ -11,21 +11,24 @@
 .containers {
     width: 100%;
 }
+
 /* .hero-intro{
     display: flex;
     align-items: center;
     justify-content: center;
     border: 1px solid; */
-    /* height: 500px; */
+/* height: 500px; */
 /* } */
 
-.hero-intro-inn{
+.hero-intro-inn {
     width: 80%;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     border: 1px solid;
 }
-.heroimg-coding{
+
+.heroimg-coding {
     /* width: 500px; */
     width: 50%;
     flex-wrap: wrap;
@@ -34,7 +37,8 @@
     /* position: absolute; */
 
 }
-.intro-home-only{
+
+.intro-home-only {
     display: flex;
     flex-direction: column;
     /* align-items: center; */
@@ -42,10 +46,12 @@
     justify-content: center;
     border: 1px solid;
 }
-.intro-home-only>h1{
+
+.intro-home-only>h1 {
     text-align: left;
 }
-.intro-home-only>.self-left{
+
+.intro-home-only>.self-left {
     align-self: flex-start;
     font-size: 25px;
     margin: 0;
@@ -59,6 +65,7 @@
     background-color: white;
     transition: background-color 0.3s ease;
 }
+
 #typing-text {
     display: inline-block;
     /* overflow: hidden; */
@@ -76,24 +83,28 @@
     from {
         width: 0;
     }
+
     to {
         width: 100%;
     }
 }
 
 @keyframes blink-caret {
-    from, to {
+
+    from,
+    to {
         border-color: transparent;
     }
+
     50% {
         border-color: #333;
     }
 }
 
-.navbar.sticky {
+.navbar.stic {
     position: fixed;
     top: 0;
-    width: 100%;
+    /* width: 100%; */
     background-color: #fc8621;
     /* Change this to your desired background color */
 }
@@ -193,13 +204,14 @@
     /* height: 250px; */
     gap: 20px;
 }
-.about-me-text>button{
+
+.about-me-text>button {
     align-self: flex-end;
-    padding: 1% 2%;
+    padding: 2% 2%;
     border-radius: 8px;
     border: none;
-    background-color: #fc8621;
     color: white;
+    width: 30%;
 }
 
 .about-me-text>p {
@@ -268,7 +280,7 @@
 }
 
 .skill-card>img {
-    width: 60px;
+    width: 50%;
 }
 
 .project-section {
@@ -288,7 +300,8 @@
     width: 75%;
     padding: 1%;
 }
-#carousel-of-project{
+
+#carousel-of-project {
     width: 75%;
 }
 
@@ -445,7 +458,8 @@
     border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.contact-item>*{
+
+.contact-item>* {
     margin: 0;
     padding: 0;
 }
@@ -567,12 +581,92 @@ form {
         grid-template-columns: repeat(6, 1fr);
     }
 }
-@media all and(max-width: 990px){
-    .hero-intro-inn{
-        width: 95%;
-        /* border: none; */
-    }
-    .about-card-inn{
 
+@media all and (min-width: 630px) and (max-width: 990px) {
+    .nav-bottom {
+        width: 90%;
     }
+
+    .hero-intro>.hero-intro-inn {
+        width: 90%;
+    }
+
+    .about-card-inn {
+        width: 90%;
+    }
+
+    .prof-details>img {
+        width: 70%
+    }
+
+    .skills-inn {
+        width: 90%;
+        grid-template-columns: repeat(5, 1fr);
+        /* border: 1px solid; */
+    }
+
+    #carousel-of-project {
+        width: 90%;
+    }
+
+    .work-d {
+        width: 90%;
+        background-color: skyblue;
+        border-top-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+        padding: 2%;
+    }
+
+    .contact-card {
+        width: 90%;
+        /* grid-template-columns: 2; */
+    }
+}
+
+@media all and (max-width: 865px) {
+    .about-card-inn {
+        grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+    }
+
+    .prof-details>img {
+        width: 75%;
+    }
+
+    .hero-intro-inn {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .hero-intro-inn>div {
+        width: 90%;
+    }
+
+    .hero-intro-inn>img {
+        width: 80%;
+    }
+}
+
+@media all and (max-width: 629px) {
+    .skills-inn {
+        width: 90%;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    #carousel-of-project {
+        width: 90%;
+    }
+
+    .work-d {
+        width: 90%;
+        /* background-color: skyblue; */
+    }
+    .contact-card {
+        width: 90%;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+*{
+    transition: width 0.2s ease;
 }

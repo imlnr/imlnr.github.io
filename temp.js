@@ -1,26 +1,8 @@
 window.addEventListener('scroll', function () {
-    const navbar = document.querySelector('.navbar');
+    const navbar = document.querySelector('.nav-bar-bottom');
     if (window.scrollY > 50) {
-      navbar.classList.add('sticky');
+      navbar.classList.add('stic');
     } else {
-      navbar.classList.remove('sticky');
+      navbar.classList.remove('stic');
     }
   });
-
-  document.addEventListener('DOMContentLoaded', function() {
-    const textElement = document.getElementById('typing-text');
-    const textToType = 'Full Stack Developer..';
-
-    let charIndex = 0;
-
-    function type() {
-        textElement.textContent = textToType.slice(0, charIndex);
-        charIndex++;
-
-        if (charIndex <= textToType.length) {
-            setTimeout(type, 100); // Adjust typing speed (milliseconds)
-        }
-    }
-
-    type();
-});
