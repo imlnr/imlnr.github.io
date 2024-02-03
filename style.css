@@ -214,6 +214,9 @@
     width: 75%;
     padding: 1%;
 }
+.carousel-of-project{
+    width: 75%;
+}
 
 .project-card {
     display: flex;
