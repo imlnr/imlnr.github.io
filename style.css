@@ -11,11 +11,83 @@
 .containers {
     width: 100%;
 }
+/* .hero-intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid; */
+    /* height: 500px; */
+/* } */
+
+.hero-intro-inn{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+}
+.heroimg-coding{
+    /* width: 500px; */
+    width: 50%;
+    flex-wrap: wrap;
+    border-radius: 40px;
+    /* mix-blend-mode: multiply; */
+    /* position: absolute; */
+
+}
+.intro-home-only{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    width: 50%;
+    justify-content: center;
+    border: 1px solid;
+}
+.intro-home-only>h1{
+    text-align: left;
+}
+.intro-home-only>.self-left{
+    align-self: flex-start;
+    font-size: 25px;
+    margin: 0;
+    padding: 0%;
+}
 
 /* navigation bar */
 
-.navbar {
+#navigation-bar {
+    /* height: 70px; */
+    background-color: white;
     transition: background-color 0.3s ease;
+}
+#typing-text {
+    display: inline-block;
+    /* overflow: hidden; */
+    border-right: 0.15em solid #333;
+    white-space: nowrap;
+    color: #04AA6D;
+    margin: 0;
+    letter-spacing: 0.15em;
+    animation:
+        typing 3.5s steps(40, end),
+        blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: #333;
+    }
 }
 
 .navbar.sticky {
@@ -31,7 +103,9 @@
 
 .hero-intro {
     display: flex;
-    background-color: gold;
+    /* background-color: gold; */
+    /* background-image: url('./src/shapelined-_JBKdviweXI-unsplash.jpg'); */
+    background-color: white;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -214,7 +288,7 @@
     width: 75%;
     padding: 1%;
 }
-.carousel-of-project{
+#carousel-of-project{
     width: 75%;
 }
 
@@ -491,5 +565,14 @@ form {
 
     .skills-inn {
         grid-template-columns: repeat(6, 1fr);
+    }
+}
+@media all and(max-width: 990px){
+    .hero-intro-inn{
+        width: 95%;
+        /* border: none; */
+    }
+    .about-card-inn{
+
     }
 }
