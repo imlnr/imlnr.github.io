@@ -53,6 +53,8 @@ html {
 
 .intro-home-only>h1 {
     text-align: left;
+    font-size: 65px;
+    font-weight: bold;
 }
 
 .intro-home-only>.self-left {
@@ -492,6 +494,9 @@ form {
         /* grid-template-columns: repeat(1, 1fr); */
         flex-direction: column;
     }
+    .intro-home-only>h1{
+        font-size: 55px;
+    }
 
     .skills-inn {
         grid-template-columns: repeat(6, 1fr);
@@ -506,7 +511,9 @@ form {
     .hero-intro>.hero-intro-inn {
         width: 90%;
     }
-
+    .intro-home-only>h1{
+        font-size: 45px;
+    }
     .about-card-inn {
         width: 90%;
     }
@@ -545,6 +552,9 @@ form {
     .prof-details>img {
         width: 75%;
     }
+    .intro-home-only>h1{
+        font-size: 40px;
+    }
 
     .hero-intro-inn {
         flex-direction: column;
@@ -564,6 +574,10 @@ form {
     .skills-inn {
         width: 90%;
         grid-template-columns: repeat(4, 1fr);
+    }
+    .intro-home-only>h1{
+        font-size: 25px;
+        font-weight: bold;
     }
 
     #carousel-of-project {
