@@ -123,22 +123,28 @@ html {
 }
 
 .prof-img {
-    /* border: 1px solid; */
-    /* flex-basis: 45%; */
-    /* align-self: flex-start; */
     display: flex;
     align-items: center;
     justify-content: center;
     /* flex-wrap: wrap; */
 }
+.about-me-text>a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    align-self: flex-start;
+}
 
 .prof-details>img {
     width: 65%;
-    /* height: 100%; */
-    /* width: fit-content; */
-    /* border-radius: 50%; */
 }
-
+#nav-dnld-btn{
+    display: flex;
+    color: white;
+}
+#nav-downl{
+    text-decoration: none;
+}
 .prof-inn-details-e-p-l {
     /* border: 1px solid; */
     height: 250px;
