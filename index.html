@@ -29,25 +29,25 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a class="nav-link text-dark mr-3 font-weight-bold" href="../index.html">HOME</a>
+                                <a class="nav-link text-dark mr-3 font-weight-bold" href="#">HOME</a>
                             </li>
                             <li class="nav-item mr-3">
                                 <a class="nav-link text-dark font-weight-bold"
-                                    href="../Destination/destination.html">ABOUT</a>
+                                    href="#about-section">ABOUT</a>
                             </li>
                             <li class="nav-item mr-3">
-                                <a class="nav-link text-dark font-weight-bold" href="../About/about.html">SKILLS</a>
+                                <a class="nav-link text-dark font-weight-bold" href="#skills-section">SKILLS</a>
                             </li>
                             <li class="nav-item mr-3">
-                                <a class="nav-link text-dark font-weight-bold" href="../About/about.html">PROJECTS</a>
+                                <a class="nav-link text-dark font-weight-bold" href="#carousel-of-project">PROJECTS</a>
                             </li>
 
                             <li class="nav-item mr-3">
                                 <a class="nav-link text-dark font-weight-bold"
-                                    href="../Contact/contact.html">STATISTICS</a>
+                                    href="#stats-section">STATISTICS</a>
                             </li>
                             <li class="nav-item mr-3">
-                                <a class="nav-link text-dark font-weight-bold" href="../About/about.html">CONSTACT</a>
+                                <a class="nav-link text-dark font-weight-bold" href="#contacts-section">CONTACT</a>
                             </li>
                             <button type="submit" class=" btn btn-success mr-3">Download CV</button>
                         </ul>
@@ -55,7 +55,7 @@
                 </nav>
             </div>
         </div>
-        <div class="hero-intro">
+        <div class="hero-intro" id="about-section">
             <div class="hero-intro-inn">
                 <div class="intro-home-only">
                     <p class="self-left">Hello, my name is</p>
@@ -89,7 +89,7 @@
                 <!-- </div> -->
             </div>
         </div>
-        <div class="skills-list">
+        <div id="skills-section" class="skills-list">
             <h1>Skills</h1>
             <div class="skills-inn">
                 <div class="skill-card">
@@ -158,7 +158,7 @@
                 </div>
             </div>
         </div>
-        <div class="project-section">
+        <div id="projects-section" class="project-section">
             <h1>projects</h1>
             <div id="carousel-of-project" class=" row">
                 <div class="col-6">
@@ -186,7 +186,7 @@
                                                 <h4 class="card-title">EduSprint</h4>
                                                 <p class="card-text">EduSprint is a Educational platform where you can explore and buy courses.</p>
                                             </div>
-                                            <div class="d-flex justify-content-end card-body">
+                                            <div  class="l-btns d-flex justify-content-end card-body">
                                                 <a href="https://software-kalaakar-5678.netlify.app/" target="_blank" class="btn btn-dark" role="button">Github</a>
                                                 <a href="https://github.com/imlnr/software-kalaakar-5678" target="_blank" class="btn btn-info" role="button">Live</a>
                                             </div>
@@ -201,7 +201,7 @@
                                                 <p class="card-text">Banjara is a travelling website where you can book your trips.</p>
 
                                             </div>
-                                            <div class="d-flex justify-content-end card-body">
+                                            <div class="l-btns d-flex justify-content-end card-body">
                                                 <a href="https://pixel-pioneer-7654.netlify.app/" target="_blank" class="btn btn-dark" role="button">Github</a>
                                                 <a href="https://github.com/bsaha12/pixel-pioneer-7654" target="_blank" class="btn btn-info" role="button">Live</a>
                                             </div>
@@ -215,7 +215,7 @@
                                                 <p class="card-text">Its is a platform where you can read and write blogs.</p>
 
                                             </div>
-                                            <div class="d-flex justify-content-end card-body">
+                                            <div class="l-btns d-flex justify-content-end card-body">
                                                 <a href="https://cw-p5.netlify.app/" target="_blank" class="btn btn-dark" role="button">Github</a>
                                                 <a href="https://github.com/anshukumari181405/overwought-skin" target="_blank" class="btn btn-info" role="button">Live</a>
                                             </div>
@@ -229,7 +229,7 @@
                 </div>
             </div>
         </div>
-        <div class="worked-days">
+        <div id="stats-section" class="worked-days">
             <h1>DAYS I WORKED</h1>
             <div class="work-d">
                 <img src="https://ghchart.rshah.org/imlnr" alt="github-calander">
@@ -248,7 +248,7 @@
                 </div>
             </div>
         </div>
-        <div class="contact">
+        <div id="contacts-section" class="contact">
             <h1>CONTACT</h1>
             <div class="contact-card">
                 <div class="contact-item">
@@ -313,6 +313,8 @@
                 </div>
             </form>
         </div>
+        <div id="scrollToTopBtn" class="material-symbols-outlined" onclick="scrollToTop()">arrow_upward</div>
+
         <div id="foot">
             <h6>
                 @ 2024 Laxminarayan. Design by myself

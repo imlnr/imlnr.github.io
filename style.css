@@ -6,7 +6,9 @@
     font-family: sans-serif;
     box-sizing: border-box;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 /* body */
 .containers {
     width: 100%;
@@ -208,7 +210,9 @@
     width: 38px;
     border-radius: 50%;
 }
-
+.l-btns>a:nth-child(1){
+    margin-right: 5%;
+}
 .skills-list {
     display: flex;
     flex-direction: column;
@@ -446,6 +450,25 @@ form {
     /* align-content: center; */
     justify-content: center;
 }
+
+
+#scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 1%;
+    cursor: pointer;
+}
+
+#scrollToTopBtn:hover {
+    background-color: #28a74644;
+}
+
 
 /* Responsive part */
 
