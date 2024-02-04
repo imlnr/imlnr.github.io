@@ -6,9 +6,11 @@
     font-family: sans-serif;
     box-sizing: border-box;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
+
 /* body */
 .containers {
     width: 100%;
@@ -210,9 +212,11 @@ html{
     width: 38px;
     border-radius: 50%;
 }
-.l-btns>a:nth-child(1){
+
+.l-btns>a:nth-child(1) {
     margin-right: 5%;
 }
+
 .skills-list {
     display: flex;
     flex-direction: column;
@@ -282,6 +286,10 @@ html{
 .work-d {
     width: 75%;
     margin-top: 2%;
+    padding: 2%;
+    background-color: #67cb7e;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
 }
 
 .work-d>img {
@@ -513,9 +521,6 @@ form {
 
     .work-d {
         width: 90%;
-        background-color: skyblue;
-        border-top-left-radius: 40px;
-        border-bottom-right-radius: 40px;
         padding: 2%;
     }
 
@@ -563,27 +568,30 @@ form {
         width: 90%;
         /* background-color: skyblue; */
     }
+
     .contact-card {
         width: 90%;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
-*{
+* {
     transition: width 0.2s ease;
 }
 
-@media all and (max-width: 430px){
+@media all and (max-width: 430px) {
     .skills-inn {
         /* width: 90%; */
         grid-template-columns: repeat(3, 1fr);
     }
 }
-@media all and (max-width: 325px){
-    .contact-card{
-        grid-template-columns: repeat(1,1fr);
+
+@media all and (max-width: 325px) {
+    .contact-card {
+        grid-template-columns: repeat(1, 1fr);
     }
-    .skills-inn{
-        grid-template-columns: repeat(2,1fr);
+
+    .skills-inn {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
