@@ -500,6 +500,15 @@ form {
     background-color: #28a74644;
 }
 
+.card {
+    position: relative;
+    overflow: hidden;
+}
+
+.card:hover img {
+    transform: scale(1.3); /* Adjust the scale factor as needed for your zoom effect */
+    transition: transform 0.3s ease; /* Adjust the transition duration and easing as needed */
+}
 
 /* Responsive part */
 
