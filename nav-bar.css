@@ -1,4 +1,4 @@
-body {
+/* body {
     margin: 0%;
     padding: 0%;
 }
@@ -81,7 +81,7 @@ body {
     display: flex;
     align-items: center;
     height: 100%;
-}
+} */
 
 .nav-bar-bottom {
     display: flex;
@@ -89,17 +89,20 @@ body {
     justify-content: center;
     /* align-items: center; */
     align-content: center;
-    background-color: rgba(255, 255, 255, 0.817);
+    /* position: static; */
 }
 .nav-bottom {
     width: 80%;
     margin-top: 0.4%;
 }
 
+
 #logo-img {
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+    font-size: 24px;
+    font-weight: bold;
 }
 
 @media only screen and (max-width:750px) {

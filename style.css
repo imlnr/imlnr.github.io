@@ -16,6 +16,15 @@ html {
     width: 100%;
 }
 
+#navigation-bar.scrolled {
+    background-color: wheat; /* Change this to the desired color when scrolled */
+    transition: background-color 0.3s ease-in-out;
+}
+#navigation-bar.scrolled .navbar-brand .navbar-nav .nav-item>.nav-link {
+    color: rgb(255, 255, 255); /* Change this to the desired text color when scrolled */
+    background-color: white;
+}
+
 /* .hero-intro{
     display: flex;
     align-items: center;
@@ -254,7 +263,12 @@ html {
     align-items: center;
     border-radius: 8px;
     gap: 15px;
-    /* border: 1px solid; */
+    /* position: absolute; */
+    transition: transform 0.3s ease-out;
+}
+.skill-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .skill-card>img {
@@ -292,12 +306,12 @@ html {
 }
 
 .work-d {
-    width: 75%;
+    width: 80%;
     margin-top: 2%;
     padding: 2%;
-    background-color: #67cb7e;
-    border-top-left-radius: 40px;
-    border-bottom-right-radius: 40px;
+    background-color: #17a3b897;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .work-d>img {
@@ -459,12 +473,13 @@ form {
 
 #foot {
     height: 50px;
-    background-color: #28a745;
+    background-color: wheat;
     display: flex;
     color: white;
     align-items: center;
     /* align-content: center; */
     justify-content: center;
+    color: black;
 }
 
 
