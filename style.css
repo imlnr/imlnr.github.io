@@ -418,7 +418,7 @@ label {
 }
 
 input[type=submit] {
-    background-color: #04AA6D;
+    background-color: #17a2b8;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -428,7 +428,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #1bb9d2;
 }
 
 /* .container {
@@ -488,7 +488,7 @@ form {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #28a745;
+    background-color: #17a2b8;
     color: #fff;
     border: none;
     border-radius: 50%;
