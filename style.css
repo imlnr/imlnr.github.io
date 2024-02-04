@@ -600,7 +600,7 @@ form {
         grid-template-columns: repeat(4, 1fr);
     }
     .intro-home-only>h1{
-        font-size: 25px;
+        font-size: 45px;
         font-weight: bold;
     }
 
@@ -628,6 +628,10 @@ form {
         /* width: 90%; */
         grid-template-columns: repeat(3, 1fr);
     }
+    .intro-home-only>h1{
+        font-size: 40px;
+        font-weight: bold;
+    }
 }
 
 @media all and (max-width: 325px) {
@@ -637,5 +641,9 @@ form {
 
     .skills-inn {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .intro-home-only>h1{
+        font-size: 30px;
+        font-weight: bold;
     }
 }
