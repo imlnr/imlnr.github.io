@@ -26,4 +26,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function closeNavbar() {
     $('.navbar-collapse').collapse('hide');
-  }
+}
+
+function openLinkInNewTab() {
+    var linkUrl = 'https://drive.google.com/file/d/1FkEUeiVucUvG6f32Ob7RRw5N7ixcZmuV/view?usp=sharing';
+    window.open(linkUrl, '_blank');
+}
