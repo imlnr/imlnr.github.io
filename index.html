@@ -29,27 +29,27 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a class="nav-link text-dark mr-3 font-weight-bold" href="#home-section" onclick="scrollToTop()">HOME</a>
+                                <a class="nav-link text-dark mr-3 font-weight-bold" href="#home-section" onclick="scrollToTop(); closeNavbar()">HOME</a>
                             </li>
                             <li class="nav-item mr-3">
-                                <a class="nav-link text-dark font-weight-bold"
+                                <a class="nav-link text-dark font-weight-bold" onclick="closeNavbar()"
                                     href="#about-section">ABOUT</a>
                             </li>
                             <li class="nav-item mr-3">
-                                <a class="nav-link text-dark font-weight-bold" href="#skills-section">SKILLS</a>
+                                <a class="nav-link text-dark font-weight-bold" href="#skills-section" onclick="closeNavbar()">SKILLS</a>
                             </li>
                             <li class="nav-item mr-3">
-                                <a class="nav-link text-dark font-weight-bold" href="#carousel-of-project">PROJECTS</a>
+                                <a class="nav-link text-dark font-weight-bold" href="#carousel-of-project" onclick="closeNavbar()">PROJECTS</a>
                             </li>
 
                             <li class="nav-item mr-3">
-                                <a class="nav-link text-dark font-weight-bold"
+                                <a class="nav-link text-dark font-weight-bold" onclick="closeNavbar()"
                                     href="#stats-section">STATISTICS</a>
                             </li>
                             <li class="nav-item mr-3">
-                                <a class="nav-link text-dark font-weight-bold" href="#contacts-section">CONTACT</a>
+                                <a class="nav-link text-dark font-weight-bold" href="#contacts-section" onclick="closeNavbar()">CONTACT</a>
                             </li>
-                            <a id="nav-downl" href="./src/M Laxminarayan Reddy-fw28_300-Full Stack Web Developer.pdf" download="M-Laxminarayan-Reddy-Resume.pdf">
+                            <a onclick="closeNavbar()" id="nav-downl" target="_blank" href="https://drive.google.com/file/d/1FkEUeiVucUvG6f32Ob7RRw5N7ixcZmuV/view?usp=sharing" download="M-Laxminarayan-Reddy-Resume.pdf">
                                 <button id="nav-dnld-btn" type="submit" class="btn btn-info mr-3"><span>Resume</span><span class="material-symbols-outlined">download</span></button>
                             </a>
                         </ul>

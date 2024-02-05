@@ -23,3 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
+
+function closeNavbar() {
+    $('.navbar-collapse').collapse('hide');
+  }
