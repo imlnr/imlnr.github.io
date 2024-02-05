@@ -632,6 +632,9 @@ form {
         font-size: 40px;
         font-weight: bold;
     }
+    #scrollToTopBtn{
+        padding: 3%;
+    }
 }
 
 @media all and (max-width: 325px) {
