@@ -17,11 +17,14 @@ html {
 }
 
 #navigation-bar.scrolled {
-    background-color: wheat; /* Change this to the desired color when scrolled */
+    background-color: wheat;
+    /* Change this to the desired color when scrolled */
     transition: background-color 0.3s ease-in-out;
 }
+
 #navigation-bar.scrolled .navbar-brand .navbar-nav .nav-item>.nav-link {
-    color: rgb(255, 255, 255); /* Change this to the desired text color when scrolled */
+    color: rgb(255, 255, 255);
+    /* Change this to the desired text color when scrolled */
     background-color: white;
 }
 
@@ -139,7 +142,8 @@ html {
     justify-content: center;
     /* flex-wrap: wrap; */
 }
-.about-me-text>a{
+
+.about-me-text>a {
     display: flex;
     text-decoration: none;
     color: white;
@@ -149,13 +153,16 @@ html {
 .prof-details>img {
     width: 65%;
 }
-#nav-dnld-btn{
+
+#nav-dnld-btn {
     display: flex;
     color: white;
 }
-#nav-downl{
+
+#nav-downl {
     text-decoration: none;
 }
+
 .prof-inn-details-e-p-l {
     /* border: 1px solid; */
     height: 250px;
@@ -266,6 +273,7 @@ html {
     /* position: absolute; */
     transition: transform 0.3s ease-out;
 }
+
 .skill-card:hover {
     transform: translateY(-8px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -506,8 +514,10 @@ form {
 }
 
 .card:hover img {
-    transform: scale(1.3); /* Adjust the scale factor as needed for your zoom effect */
-    transition: transform 0.3s ease; /* Adjust the transition duration and easing as needed */
+    transform: scale(1.3);
+    /* Adjust the scale factor as needed for your zoom effect */
+    transition: transform 0.3s ease;
+    /* Adjust the transition duration and easing as needed */
 }
 
 /* Responsive part */
@@ -518,7 +528,8 @@ form {
         /* grid-template-columns: repeat(1, 1fr); */
         flex-direction: column;
     }
-    .intro-home-only>h1{
+
+    .intro-home-only>h1 {
         font-size: 55px;
     }
 
@@ -535,9 +546,11 @@ form {
     .hero-intro>.hero-intro-inn {
         width: 90%;
     }
-    .intro-home-only>h1{
+
+    .intro-home-only>h1 {
         font-size: 45px;
     }
+
     .about-card-inn {
         width: 90%;
     }
@@ -576,7 +589,8 @@ form {
     .prof-details>img {
         width: 75%;
     }
-    .intro-home-only>h1{
+
+    .intro-home-only>h1 {
         font-size: 40px;
     }
 
@@ -599,7 +613,8 @@ form {
         width: 90%;
         grid-template-columns: repeat(4, 1fr);
     }
-    .intro-home-only>h1{
+
+    .intro-home-only>h1 {
         font-size: 45px;
         font-weight: bold;
     }
@@ -628,11 +643,13 @@ form {
         /* width: 90%; */
         grid-template-columns: repeat(3, 1fr);
     }
-    .intro-home-only>h1{
+
+    .intro-home-only>h1 {
         font-size: 40px;
         font-weight: bold;
     }
-    #scrollToTopBtn{
+
+    #scrollToTopBtn {
         padding: 3%;
     }
 }
@@ -645,7 +662,8 @@ form {
     .skills-inn {
         grid-template-columns: repeat(2, 1fr);
     }
-    .intro-home-only>h1{
+
+    .intro-home-only>h1 {
         font-size: 30px;
         font-weight: bold;
     }
