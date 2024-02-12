@@ -336,12 +336,12 @@ html {
     margin-top: 2%;
 }
 
-.stats-card-inn {
+/* .stats-card-inn {
     width: 89%;
     margin: 2%;
-    /* border: 1px solid; */
-    /* padding: 2%; */
-}
+    border: 1px solid;
+    padding: 2%;
+} */
 
 .stats-1 {
     display: flex;
