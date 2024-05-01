@@ -29,6 +29,6 @@ function closeNavbar() {
 }
 
 function openLinkInNewTab() {
-    var linkUrl = 'https://drive.google.com/file/d/1grh4niRapF9z2Si0K91rQqh_sC3sOYpI/view?usp=drive_link';
+    var linkUrl = 'https://drive.google.com/file/d/1fjEEcIC1cLpidJkT1e1Nx0qV8CEFLO0C/view?usp=drive_link';
     window.open(linkUrl, '_blank');
 }
