@@ -275,8 +275,9 @@ html {
 }
 
 .skill-card:hover {
-    transform: translateY(-8px);
+    transform: scale(1.1);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    border: 2px solid;
 }
 
 .skill-card>img {
@@ -688,4 +689,4 @@ form {
         font-size: 30px;
         font-weight: bold;
     }
-}
+}  

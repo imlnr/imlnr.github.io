@@ -1,6 +1,3 @@
-
-
-
 window.onscroll = function () {
   scrollFunction();
 };
