@@ -305,24 +305,29 @@ html {
 #carousel-of-project {
     width: 75%;
 }
-.techstackscard{
+
+.techstackscard {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 2%;
 }
-.techstackscard>img{
+
+.techstackscard>img {
     width: 7%;
 }
-.card-body{
+
+.card-body {
     overflow: hidden;
 }
-.card-body{
+
+.card-body {
     padding: 0%;
     margin: 0%;
     /* border: 1px solid; */
 }
-.techstackscard>img:hover{
+
+.techstackscard>img:hover {
     transform: scale(1.2);
     transition: transform 0.3s ease;
 }
@@ -689,4 +694,4 @@ form {
         font-size: 30px;
         font-weight: bold;
     }
-}  
+}
