@@ -277,7 +277,7 @@ html {
 .skill-card:hover {
     transform: scale(1.1);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    border: 2px solid;
+    border: 2px solid #17a2b8;
 }
 
 .skill-card>img {
@@ -694,4 +694,8 @@ form {
         font-size: 30px;
         font-weight: bold;
     }
+}
+
+.heading-all {
+    color: #17a2b8;
 }
