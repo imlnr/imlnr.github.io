@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.46961403.css",
-    "main.js": "/static/js/main.f61498be.js",
+    "main.js": "/static/js/main.b35d422f.js",
     "static/media/Hello.gif": "/static/media/Hello.d93720933c608f6178fb.gif",
     "static/media/pokedex-dashboard.webp": "/static/media/pokedex-dashboard.553433b62fde3d32667c.webp",
     "static/media/petpals-petview.webp": "/static/media/petpals-petview.03d6acd8d6c5fff01e53.webp",
@@ -14,6 +14,9 @@
     "static/media/ecommerce-cart.webp": "/static/media/ecommerce-cart.74a684b8b2f079c20f91.webp",
     "static/media/imlnr.webp": "/static/media/imlnr.34554b678fa5542f8fa8.webp",
     "static/media/petpals.webp": "/static/media/petpals.e5452b8f654f5c7f980b.webp",
+    "static/media/skydrive-folder-files.webp": "/static/media/skydrive-folder-files.a6c45e30a3471f18b404.webp",
+    "static/media/skydrive-landing.webp": "/static/media/skydrive-landing.90617518d4b2a7f0e25f.webp",
+    "static/media/skydrive-mydrive.webp": "/static/media/skydrive-mydrive.821b7b593300a47ffb54.webp",
     "static/media/illustration.svg": "/static/media/illustration.cf4b7a67f23b684549c4f797c62b527a.svg",
     "static/media/sass-icon.svg": "/static/media/sass-icon.3572f53ec4f404e921a9e8193cdb70fe.svg",
     "static/media/mysql-icon.svg": "/static/media/mysql-icon.64f88a817c7f8c20c853ea3acbca9310.svg",
@@ -47,10 +50,10 @@
     "static/media/Material UI.svg": "/static/media/Material UI.87264df237ee700ba78bb58ff701a6d3.svg",
     "static/media/Next.js.svg": "/static/media/Next.js.17fe1720dcc66b60fc1a5a70d104d1dd.svg",
     "main.46961403.css.map": "/static/css/main.46961403.css.map",
-    "main.f61498be.js.map": "/static/js/main.f61498be.js.map"
+    "main.b35d422f.js.map": "/static/js/main.b35d422f.js.map"
   },
   "entrypoints": [
     "static/css/main.46961403.css",
-    "static/js/main.f61498be.js"
+    "static/js/main.b35d422f.js"
   ]
 }
