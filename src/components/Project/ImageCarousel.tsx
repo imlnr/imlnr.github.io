@@ -34,7 +34,7 @@ const ImageCarousel: React.FC<ImageCarouselProps> = ({ images, interval = 2500 }
                         left: 0,
                         width: '100%',
                         height: '100%',
-                        objectFit: 'cover',
+                        // objectFit: 'cover',
                         opacity: idx === current ? 1 : 0,
                         transition: 'opacity 0.7s ease',
                     }}
