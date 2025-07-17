@@ -43,7 +43,7 @@ export const Container = styled.section`
       font-size: 2.1rem;
     }
     .work-d {
-      padding: 1rem;
+      padding: 0.5rem;
     }
     .work-d img {
       max-width: 100vw;
