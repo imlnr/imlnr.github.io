@@ -21,6 +21,9 @@ import petpalsPet from "../../assets/projects/petpals/petpals-petview.webp";
 import pokedexLanding from "../../assets/projects/pokedex/pokedex-landing.webp";
 import singlePokemon from "../../assets/projects/pokedex/pokedex-singleview.webp";
 import pokemonDashboard from "../../assets/projects/pokedex/pokedex-dashboard.webp";
+import skydriveLanding from "../../assets/projects/skydrive/skydrive-landing.webp";
+import skydriveMydrive from "../../assets/projects/skydrive/skydrive-mydrive.webp";
+import skydriveFolder from "../../assets/projects/skydrive/skydrive-folder-files.webp";
 import React from "react";
 
 export interface ProjectData {
@@ -107,7 +110,9 @@ const projectsData: ProjectData[] = [
             { url: "https://youtu.be/NOm-3MynPLE", icon: externalLink, alt: "Demo Video" },
         ],
         images: [
-
+            skydriveLanding,
+            skydriveMydrive,
+            skydriveFolder
         ],
     }
 ];
