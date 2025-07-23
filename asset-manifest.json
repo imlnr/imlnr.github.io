@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.46961403.css",
-    "main.js": "/static/js/main.851b7bdb.js",
+    "main.js": "/static/js/main.1036ca60.js",
     "static/media/Hello.gif": "/static/media/Hello.d93720933c608f6178fb.gif",
     "static/media/pokedex-dashboard.webp": "/static/media/pokedex-dashboard.553433b62fde3d32667c.webp",
     "static/media/petpals-petview.webp": "/static/media/petpals-petview.03d6acd8d6c5fff01e53.webp",
@@ -32,28 +32,25 @@
     "static/media/instagram.svg": "/static/media/instagram.e9d6b5424508db6397a027a4e0fe0dd0.svg",
     "static/media/Node.js.svg": "/static/media/Node.js.10c9e2aa0ca7edf36fceae25fec038a1.svg",
     "static/media/phone-icon.svg": "/static/media/phone-icon.fc7195139d684fa2f6bb03b8b9816095.svg",
-    "static/media/shopify.svg": "/static/media/shopify.6844408d4c13f2222031ef679e05c95e.svg",
     "static/media/github.svg": "/static/media/github.d344c0fc70ddfb6de253ddc40adcb086.svg",
     "static/media/email-icon.svg": "/static/media/email-icon.a5dd245e834641e729e77e40309039c4.svg",
     "static/media/external-link.svg": "/static/media/external-link.8ce0d189635b118259ec51d8c9b4a1d0.svg",
     "static/media/Redux.svg": "/static/media/Redux.14c37d741a4ba75eb0a182d3eb367ce4.svg",
     "static/media/html-icon.svg": "/static/media/html-icon.185baee7db74b83bf22eec6a6def7644.svg",
     "static/media/css-icon.svg": "/static/media/css-icon.212d777ae2db63edb235490d487dc292.svg",
-    "static/media/wordpress.svg": "/static/media/wordpress.19efd7af1fafc38a53600387f0821d3d.svg",
     "static/media/Express.svg": "/static/media/Express.4925c0127df8857c18b38329795ce88f.svg",
     "static/media/Git.svg": "/static/media/Git.c08353563539c6459b353f29d8dd7bf2.svg",
     "static/media/Tailwind CSS.svg": "/static/media/Tailwind CSS.9e34cea7e64dc92eb2cddb65092b0336.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.4f00d78f67f451cf01173f7418aa186f.svg",
     "static/media/js-icon.svg": "/static/media/js-icon.2d25723e91c8a9e057ae447ae6a73ecb.svg",
-    "static/media/vue-icon.svg": "/static/media/vue-icon.7219cc0384993fc067ee20c94a66b1e9.svg",
     "static/media/shadcn.svg": "/static/media/shadcn.30d750e715d4b55dc74e9c6f2920d863.svg",
     "static/media/Material UI.svg": "/static/media/Material UI.87264df237ee700ba78bb58ff701a6d3.svg",
     "static/media/Next.js.svg": "/static/media/Next.js.17fe1720dcc66b60fc1a5a70d104d1dd.svg",
     "main.46961403.css.map": "/static/css/main.46961403.css.map",
-    "main.851b7bdb.js.map": "/static/js/main.851b7bdb.js.map"
+    "main.1036ca60.js.map": "/static/js/main.1036ca60.js.map"
   },
   "entrypoints": [
     "static/css/main.46961403.css",
-    "static/js/main.851b7bdb.js"
+    "static/js/main.1036ca60.js"
   ]
 }
