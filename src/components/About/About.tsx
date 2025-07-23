@@ -40,7 +40,7 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
           <p>
-            My expertise spans building scalable APIs, integrating databases, and deploying solutions in cloud environments. I am also experienced with popular CMS platforms like WordPress and Shopify, enabling efficient content management and e-commerce solutions.
+            My expertise spans building scalable APIs, integrating databases, and deploying solutions in cloud environments. I am also experienced, enabling efficient content management and e-commerce solutions.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={400}>

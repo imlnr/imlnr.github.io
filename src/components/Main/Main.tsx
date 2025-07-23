@@ -6,16 +6,17 @@ import { Contact } from "../Contact/Contact";
 import { Project } from "../Project/Project";
 import python from "../../assets/python.svg"
 import java from "../../assets/java.svg"
-import wordpress from "../../assets/wordpress.svg";
-import shopify from "../../assets/shopify.svg";
+import tailwindIcon from "../../assets/Tailwind CSS.svg";
+import reduxIcon from "../../assets/Redux.svg";
+import swaggerIcon from "../../assets/Swagger.svg";
 import htmlIcon from "../../assets/html-icon.svg";
+import mongodbIcon from "../../assets/MongoDB.svg";
+import gitIcon from "../../assets/Git.svg";
 import cssIcon from "../../assets/css-icon.svg";
 import sassIcon from "../../assets/sass-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
-// import nodeIcon from "../../assets/node-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
-import vueIcon from "../../assets/vue-icon.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import WorkingDays from "../Workingdays/WorkingDays";
 import Statistics from "../Statistics/Statistics";
@@ -163,15 +164,31 @@ export function Main() {
                   "height": 20
                 },
                 {
-                  "src": wordpress,
+                  "src": mongodbIcon,
                   "width": 20,
                   "height": 20
                 },
                 {
-                  "src": shopify,
+                  "src": reduxIcon,
                   "width": 20,
                   "height": 20
                 },
+                {
+                  "src": swaggerIcon,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": tailwindIcon,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": gitIcon,
+                  "width": 20,
+                  "height": 20
+                },
+
                 {
                   "src": htmlIcon,
                   "width": 20,
@@ -212,13 +229,8 @@ export function Main() {
                   "width": 20,
                   "height": 20
                 },
-                // {
-                //   "src": vscodeIcon,
-                //   "width": 20,
-                //   "height": 20
-                // },
                 {
-                  "src": vueIcon,
+                  "src": mongodbIcon,
                   "width": 20,
                   "height": 20
                 },
