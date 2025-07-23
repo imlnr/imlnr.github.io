@@ -14,15 +14,16 @@ export const Container = styled.div`
     flex-direction: column;
     text-align: center;
     align-items: center;
+    
     gap: 1rem;
     width: 100%;
     input, textarea{
+      background-color: #2b2b2b;
       width: 60rem;
       padding: 1rem 2rem;
       border-radius: 1.6rem;
       outline: none;
       border: none;
-      background:none;
       border: 1px solid #FFF;
       color: white;
       font-weight: 600;
