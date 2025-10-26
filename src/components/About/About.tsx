@@ -53,9 +53,16 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={550}>
           <div className="experience">
-            <h3>Experience:</h3><h4>Associate Software Developer</h4>
+            <h3>Experience:</h3><h4>Full Stack Developer (MERN)</h4>
+            <p>Ishvara Tech LLP | August 2025 - Present</p>
+            <p>Bhubaneswar, Odisha, India</p>
+          </div>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInLeft" delay={550}>
+          <div className="experience">
+            <h3></h3><h4>Associate Software Developer</h4>
             <p>Affinate Private Limited | June 2023 - June 2024</p>
-            <p>Cuttack, Odisha, India</p>
+            <p>Remote</p>
           </div>
         </ScrollAnimation>
 

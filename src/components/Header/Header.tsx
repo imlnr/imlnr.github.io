@@ -55,7 +55,7 @@ export function Header() {
               link.click();
               document.body.removeChild(link);
               // Open Google Drive link in new tab
-              window.open('https://drive.google.com/file/d/1Aai5xJ8vyp0NwFUxS-iaVM1xcUh2hFes/view?usp=sharing', '_blank', 'noopener,noreferrer');
+              window.open('https://drive.google.com/file/d/14FYTVaMI5fUXTJzSnz5-mv2ztDKOupV4/view?usp=sharing', '_blank', 'noopener,noreferrer');
             }}
             download
             className="button"
