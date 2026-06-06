@@ -20,6 +20,10 @@ import reactIcon from "../../assets/react-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import ScrollAnimation from "react-animate-on-scroll";
+import bitbucket from "../../assets/bitbucket.svg";
+import aws from "../../assets/aws.svg";
+import jenkins from "../../assets/jenkins.svg";
+import fastapi from "../../assets/fastapi.svg";
 
 export function About() {
   return (
@@ -163,6 +167,27 @@ export function About() {
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.20 * 1000}>
               <img src={nextjsIcon} alt="Next.js" />
+            </ScrollAnimation>
+          </div>
+
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.20 * 1000}>
+              <img src={fastapi} alt="FastAPI" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.20 * 1000}>
+              <img src={bitbucket} alt="Bitbucket" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.20 * 1000}>
+              <img src={aws} alt="AWS" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.20 * 1000}>
+              <img src={jenkins} alt="Jenkins" />
             </ScrollAnimation>
           </div>
         </div>
