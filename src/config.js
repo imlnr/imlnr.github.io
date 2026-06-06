@@ -1,0 +1,1 @@
+export const DRIVE_RESUME_URL = 'https://drive.google.com/file/d/15RMFQ2xqWrIJZ8QbI_pR4FQ1dh4WV2xY/view?usp=drive_link'

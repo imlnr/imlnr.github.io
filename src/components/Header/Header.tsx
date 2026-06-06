@@ -3,6 +3,7 @@ import { BrowserRouter as Router } from 'react-router-dom'
 import { NavHashLink, HashLink } from 'react-router-hash-link'
 import { useState } from 'react'
 import Resume from '../../assets/Laxminarayan_Software_Developer.pdf'
+import { DRIVE_RESUME_URL } from '../../config'
 export function Header() {
   const [isActive, setActive] = useState(false)
   function toggleTheme() {
@@ -55,7 +56,7 @@ export function Header() {
               link.click();
               document.body.removeChild(link);
               // Open Google Drive link in new tab
-              window.open('https://drive.google.com/file/d/14FYTVaMI5fUXTJzSnz5-mv2ztDKOupV4/view?usp=sharing', '_blank', 'noopener,noreferrer');
+              window.open(DRIVE_RESUME_URL, '_blank', 'noopener,noreferrer');
             }}
             download
             className="button"
